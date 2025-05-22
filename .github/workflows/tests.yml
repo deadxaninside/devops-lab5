@@ -1,7 +1,7 @@
 name: Test Python App
 on:
   push:
-    branches: [dev]
+    branches: [main]
 jobs:
   ci:
     runs-on: ubuntu-latest
